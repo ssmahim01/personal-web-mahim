@@ -1,0 +1,130 @@
+/* The link of Bebas Neue */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Universal Selector */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body */
+
+body{
+    font-family:"Bebas Neue", sans-serif;
+}
+
+/* header styles start */
+
+header{
+    width:90%;
+    margin:0 auto;
+}
+
+.nav-container{
+   margin-top:4%;
+   margin-left:68%;
+}
+
+.nav-content i{
+    display:none;
+    transition:4s;
+}
+
+.nav-content i:hover{
+    width:15%;
+    background-color:rgb(254, 84, 3);
+    padding:0.5rem;
+    border-radius:0.5rem;
+    cursor:pointer;
+    transform:translate(300px);
+}
+
+.nav-content{
+     width:328px;
+     display:flex;
+     justify-content:space-evenly;
+     gap:1.4rem;
+}
+
+.nav-content li{
+    list-style:none;
+    color:rgb(60, 60, 60);
+    font-family:Roboto;
+    font-size:1.1rem;
+    font-weight:600;
+}
+
+.nav-content li:hover{
+    cursor:pointer;
+    background-color:goldenrod;
+    padding:0.2rem;
+    border-radius:0.5rem;
+}
+
+.two-contents-parent{
+    margin-top:6%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.header-text-content{
+    width:50%;
+}
+
+.name-title{
+    color:rgb(54, 57, 88);
+    font-size:4.4rem;
+    font-weight:700;
+}
+
+.name-title span{
+    color:rgb(255, 131, 103);
+    font-style:oblique;
+    font-size:5rem;
+}
+
+.simple-introduction{
+    max-width:80%;
+    margin-top:3%;
+    color:rgb(62, 62, 62);
+    font-family:Roboto;
+    font-size:1.1rem;
+    font-weight:600;
+}
+
+.header-btn{
+    width:170px;
+    height:60px;
+    color:rgb(255, 255, 255);
+    font-size:1rem;
+    font-weight:500;
+    margin-top:6%;
+    border-radius:0.5rem;
+    border:none;
+    background:linear-gradient(0.00deg, rgb(255, 128, 99) -28.333%,rgb(244, 96, 96) 95.833%);
+    cursor:pointer;
+}
+
+.header-image-content{
+    width:600px;
+    height:510px;
+    margin:0 auto;
+    margin-right:5rem;
+    background-image:url("../shapes/Group\ 33087.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.header-image-content img{
+    width:70%;
+    border-radius:30%;
+    position:relative;
+    top:8%;
+    left:15%;
+}
+
+/* header styles end */
