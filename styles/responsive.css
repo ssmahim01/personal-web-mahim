@@ -62,6 +62,36 @@
 
     /* header responsive end */
 
-    /*  */
+    /* about section responsive start */
+
+    .about-section-container{
+        flex-direction:column;
+        margin-top:-10%;
+    }
+
+    .about-image-content{
+        width:100%;
+        position:relative;
+        margin-left:-8%;
+    }
+
+    .about-image-content img{
+        width:60%;
+        position:absolute;
+        margin-top:-11%;
+        left:5%;
+        transition:5s;
+    }
+
+    .about-image-content img:hover{
+        cursor:pointer;
+        transform:translateY(200px);
+    }
+
+    .about-text-content{
+       margin-left:54%;
+    }
+
+    /* about section responsive end */
 
 }
