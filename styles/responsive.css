@@ -50,15 +50,12 @@
 
     .header-image-content{
         width:100%;
-        margin-top:10%;
-        background-image:none;
+        margin-top:15%;
     }
 
     .header-image-content img{
         width:90%;
-        margin-left:-2.1rem;
-       border:8px solid lightsteelblue;
-       border-radius:15%;
+        margin-left:1rem;
     }
 
     /* header responsive end */
@@ -67,6 +64,7 @@
 
     .about-section-container{
         flex-direction:column;
+        margin-top:25%;
     }
 
     .about-image-content{

@@ -127,22 +127,16 @@ header{
 }
 
 .header-image-content{
-    width:600px;
-    height:510px;
+    width:500px;
     margin:0 auto;
     margin-right:5rem;
-    background-image:url("../shapes/Group\ 33087.png");
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
 }
 
 .header-image-content img{
-    width:70%;
-    border-radius:30%;
-    position:relative;
-    top:8%;
-    left:15%;
+    width:100%;
+    border:8px solid rgba(117, 117, 117, 0.5);
+    border-radius:1.6rem;
+    box-shadow:20px 15px 10px 5px rgb(108, 108, 108);
 }
 
 /* header styles end */
