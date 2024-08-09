@@ -34,6 +34,7 @@
 
     .two-contents-parent{
         flex-direction:column;
+        margin-top:15%;
     }
 
     .header-text-content{
@@ -66,7 +67,6 @@
 
     .about-section-container{
         flex-direction:column;
-        margin-top:-10%;
     }
 
     .about-image-content{
@@ -93,5 +93,19 @@
     }
 
     /* about section responsive end */
+
+    /* projects section responsive start */
+
+    .projects-section-container{
+        height:100%;
+    }
+
+    .project-images-container{
+        margin-top:3.5rem;
+        grid-template-columns:1fr;
+        row-gap:25px;
+    }
+
+    /* projects section responsive end */
 
 }

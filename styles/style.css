@@ -190,3 +190,90 @@ top:-30%;
 }
 
 /* about section styles end */
+
+/* projects section styles start */
+
+.projects-section-container{
+  width:100%;
+   height:700px;
+   margin-top:8%;
+   background:rgb(229, 229, 229);
+}
+
+.projects-title{
+    font-size:3rem;
+    font-weight:700;
+    padding-top:6.5rem;
+    text-align:center;
+}
+
+.projects-title span{
+    color:rgb(244, 96, 96);
+}
+
+.project-images-container{
+    width:90%;
+    margin:0 auto;
+    margin-top:5%;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+.first-image-card, 
+.second-image-card, 
+.third-image-card{
+    max-width:370px;
+    border-radius:1.2rem;
+    box-shadow:0px 7px 20px 0px rgba(0, 0, 0, 0.07);
+    background-color:rgb(255, 255, 255);
+}
+
+.first-image-card a, 
+.second-image-card a, 
+.third-image-card a{
+    text-decoration:none;
+}
+
+.first-image-card:hover, 
+.second-image-card:hover, 
+.third-image-card:hover{
+    cursor:pointer;
+    background:rgb(229, 229, 229);
+}
+
+.first-image-card img, 
+.second-image-card img, 
+.third-image-card img{
+    width:90%;
+    margin-top:5%;
+    margin-left:5%;
+    border:3px solid #727272;
+    border-radius:1rem;
+}
+
+.card-description{
+    width:90%;
+    margin:0 auto;
+}
+
+.first-image-card h2, 
+.second-image-card h2, 
+.third-image-card h2{
+  color:rgb(54, 57, 88);
+    font-family:Roboto;
+    font-size:1.6rem;
+    font-weight:700;
+    margin-top:4%;
+}
+
+.first-image-card p, 
+.second-image-card p, 
+.third-image-card p{
+    color:rgb(108, 108, 108);
+    font-family:Roboto;
+    font-size:0.9rem;
+    font-weight:600;
+    margin:5% 0;
+}
+
+/* projects section styles end */
