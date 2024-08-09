@@ -277,3 +277,37 @@ top:-30%;
 }
 
 /* projects section styles end */
+
+/* work inquiry section styles start */
+
+.work-inquiry-section{
+    width:70%;
+    margin:0 auto;
+    margin-top:10%;
+    background-image:url("../shapes/work-inquiry-image.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:1.7rem;
+}
+
+.full-content-container{
+    width:90%;
+    height:200px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.inquiry-title{
+    color:rgb(255, 255, 255);
+    font-size:4rem;
+    font-weight:700;
+}
+
+.work-inquiry-section button{
+    margin-bottom:6%;
+}
+
+/* work inquiry section styles end */
