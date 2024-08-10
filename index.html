@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <script src="https://kit.fontawesome.com/688e7a57b2.js" crossorigin="anonymous"></script>
+    <script>
+        function message1(){
+            alert("First visit full site and see then like to accept");
+        }
+
+        function message2(){
+            alert("CV isn't ready now cause it's not working");
+        }
+    </script>
 </head>
 <body>
 
@@ -23,10 +32,10 @@
             <ul class="nav-content">
                 <i class="fa-solid fa-flag fa-2xl" style="color: #ff3d3d;"></i>
 
-                <li>About</li>
-                <li>Work</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <a href="#about"><li>About</li></a>
+                <a href="#work"><li>Work</li></a>
+                <a href="#projects"><li>Portfolio</li></a>
+                <a href="#footer"><li>Contact</li></a>
             </ul>
         </nav>
 
@@ -38,7 +47,7 @@
     
                     <p class="simple-introduction">A web developer.This website has my related information,like to see project's.</p>
     
-                    <button class="share-btn">Hire Me</button>
+                    <button onclick="message1()" class="share-btn">Hire Me</button>
             </div>
     
             <div class="header-image-content">
@@ -58,12 +67,12 @@
                 <img src="images/image1.png" alt="a man image">
             </div>
 
-            <div class="about-text-content">
+            <div class="about-text-content"  id="about">
                 <h2 class="about-title">ABOUT</h2>
 
                 <p class="about-description">My self  SS.Mahim,you would like to call me Mahim Zayn,cause it's my social name.Now,I'm a student of English department of honour's 2nd year.I take a challenge of full stack developer.I should continue this mission with patience and never give up.I expect and belief that i will become a full stack developer.</p>
                 
-                <button class="share-btn"><i class="fa-solid fa-download" style="margin-right:0.5rem;"></i> Download CV</button>
+               <button onclick="message2()" class="share-btn"><i class="fa-solid fa-download" style="margin-right:0.5rem;"></i> Download CV</button>
             </div>
 
         </section>
@@ -75,7 +84,7 @@
         <section class="projects-section-container">
             <h2 class="projects-title"><span>LATEST  </span>  WORKING PROJECT</h2>
 
-            <div class="project-images-container">
+            <div class="project-images-container" id="projects">
                 <div class="first-image-card">
                    <a href="https://ssmahim01.github.io/my-a1-challenge/" target="_blank"> <img src="images/a-developer.png" alt="Image of a developer website">
 
@@ -115,12 +124,12 @@
 
         <!-- work inquiry section starts here -->
 
-        <section class="work-inquiry-section">
+        <section class="work-inquiry-section" id="work">
 
             <div class="full-content-container">
                 <h2 class="inquiry-title">Work Inquiry</h2>
     
-                <button class="share-btn">Let's Chat</button>
+                <a href="https://www.facebook.com/ssmahim/" target="_blank"><button class="share-btn">Let's Chat</button></a>
             </div>
 
           </section>
@@ -130,7 +139,7 @@
 
     <!-- footer starts here -->
 
-    <footer class="footer-main">
+    <footer class="footer-main" id="footer">
 
         <div class="footer-contents-container">
 
@@ -139,14 +148,14 @@
                 <h1 class="footer-email">mzmahim256@gmail.com</h1>
             </div>
             <div class="footer-icons">
-                <img src="icons/facebook.png" alt="Facebook Icon">
-                <img src="icons/instagram.png" alt="Instagram Icon">
-                <img src="icons/youtube.png" alt="You Tube Icon">
+                <a href="https://www.facebook.com/iammz01" target="_blank"><img src="icons/facebook.png" alt="Facebook Icon"></a>
+                <a href="https://www.instagram.com/iammz01/" target="_blank"><img src="icons/instagram.png" alt="Instagram Icon"></a>
+                <a href="https://www.youtube.com/channel/UCKlfsPwoFi37rQz0YU8DbEw" target="_blank"><img src="icons/youtube.png" alt="You Tube Icon"></a>
             </div>
         </div>
     </footer>
 
     <!-- footer ends here -->
-     
+
 </body>
 </html>
