@@ -11,25 +11,21 @@
     }
 
     .nav-title{
-        margin-top:6%;
-        font-size:1.2rem;
+        margin-top:10%;
+        font-size:1rem;
+        margin-left:-3rem;
     }
 
     .nav-content{
-        margin-top:4%;
+        margin-top:7%;
         flex-direction:column;
     }
 
     .nav-content i{
         display:block;
-        margin-top:7%;
-        margin-left:-8%;
-        text-align:left;
-    }
-
-    .nav-content li:hover{
-        width:40%;
-        margin:0 auto;
+        margin-top:-11%;
+        margin-right:-7%;
+        text-align:right;
     }
 
     .two-contents-parent{
