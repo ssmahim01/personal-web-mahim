@@ -121,4 +121,16 @@
 
     /* work inquiry section responsive end */
 
+    /* footer responsive start */
+
+    .footer-main{
+        margin-top:15%;
+    }
+
+    .footer-contents-container{
+        width:100%;
+    }
+
+    /* footer responsive end */
+
 }
