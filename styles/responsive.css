@@ -28,6 +28,11 @@
         text-align:right;
     }
 
+    .nav-content li:hover{
+        width:40%;
+        margin:0 auto;
+    }
+
     .two-contents-parent{
         flex-direction:column;
         margin-top:15%;
