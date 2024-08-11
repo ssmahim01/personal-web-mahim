@@ -114,9 +114,18 @@
         margin-top:15%;
     }
 
+    .full-content-container{
+        padding:2rem;
+    }
+
     .inquiry-title{
+        font-size:3.8rem;
         text-align:center;
         margin-left:-10%;
+    }
+
+    .work-inquiry-section button{
+        margin-left:1.5rem;
     }
 
     /* work inquiry section responsive end */
@@ -129,6 +138,16 @@
 
     .footer-contents-container{
         width:100%;
+    }
+
+    .footer-email{
+        font-size:1.8rem;
+    }
+
+    .footer-icons{
+        width:50%;
+        margin:0 auto;
+        margin-top:8%;
     }
 
     /* footer responsive end */
