@@ -310,6 +310,60 @@ top:-30%;
 
 /* work inquiry section styles end */
 
+/* yt videos section styles start */
+
+.yt-videos-section{
+    width:90%;
+    height:950px;
+    margin:0 auto;
+    margin-top:8%;
+    background:linear-gradient(0deg, rgb(229, 229, 229), rgba(217, 217, 217, 0.1));
+    border-radius:1rem;
+}
+
+.yt-videos-main-title{
+    font-size:3rem;
+    font-weight:700;
+    padding-top:6rem;
+    text-align:center;
+}
+
+.yt-videos-main-title span{
+    color:rgb(244, 96, 96);
+    text-decoration:line-through;
+}
+
+.iframe-contents{
+    width:90%;
+    margin:0 auto;
+    margin-top:5%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    column-gap:30px;
+    row-gap:35px;
+}
+
+.first-iframe-content, 
+.second-iframe-content, 
+.third-iframe-content, 
+.fourth-iframe-content{
+ width:100%;
+    border-radius:1.2rem;
+   box-shadow:15px 10px 10px 5px #424242;
+}
+
+.first-iframe-content iframe, 
+.second-iframe-content iframe, 
+.third-iframe-content iframe, 
+.fourth-iframe-content iframe{
+    width:100%;
+    border:1px solid rgb(108, 108, 108);
+    border-radius:1.2rem;
+    padding:0.5rem;
+}
+
+/* yt videos section styles end */
+
 /* footer styles start */
 
 .footer-main{

@@ -24,7 +24,7 @@
     .nav-content i{
         display:block;
         margin-top:-11%;
-        margin-right:-7%;
+        margin-right:-5%;
         text-align:right;
     }
 
@@ -99,6 +99,10 @@
         height:1240px;
     }
 
+    .projects-title{
+        font-size:2.7rem;
+    }
+
     .project-images-container{
         margin-top:3.5rem;
         grid-template-columns:1fr;
@@ -125,10 +129,43 @@
     }
 
     .work-inquiry-section button{
-        margin-left:1.5rem;
+        width:130px;
+        margin-left:1.8rem;
     }
 
     /* work inquiry section responsive end */
+
+    /* yt videos section responsive start */
+
+    .yt-videos-section{
+        height:1170px;
+        margin-top:20%;
+    }
+
+    .yt-videos-main-title{
+        font-size:2.4rem;
+        padding:4rem 0;
+    }
+
+    .iframe-contents{
+        margin-top:-5%;
+        grid-template-columns:1fr;
+    }
+
+    .first-iframe-content, 
+    .second-iframe-content, 
+    .third-iframe-content, 
+    .fourth-iframe-content{
+        width:90%;
+        margin:0 auto;
+    }
+    
+    .iframe-contents iframe{
+        height:210px;
+        box-shadow:10px 8px 5px 3px rgba(117, 117, 117, 0.1);
+    }
+    
+    /* yt videos section responsive end */
 
     /* footer responsive start */
 
